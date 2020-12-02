@@ -1,16 +1,33 @@
 import * as React from "react";
-import { NavBar } from "../components/navigation/NavBar/NavBar";
-import { NavBarContainer } from "../components/navigation/NavBarContainer/NavBarContainer";
-import { NavBarLogo } from "../components/navigation/NavBarLogo/NavBarLogo";
+import { BrowserRouter as Router } from "react-router-dom";
+import { Nav } from "../components/navigation/Nav/Nav";
+import { NavContainer } from "../components/navigation/NavContainer/NavContainer";
+import { NavLogo } from "../components/navigation/NavLogo/NavLogo";
+import { NavIcon } from "../components/navigation/NavIcon/NavIcon";
+import { NavMenu } from "../components/navigation/NavMenu/NavMenu";
+import { NavItem } from "../components/navigation/NavItem/NavItem";
+import { NavLink } from "../components/navigation/NavLink/NavLink";
 
 export const Application: React.FC = () => {
   return (
-    <div>
-      <NavBar>
-        <NavBarContainer>
-          <NavBarLogo>Maximiliano Correa</NavBarLogo>
-        </NavBarContainer>
-      </NavBar>
-    </div>
+    <Router>
+      <Nav>
+        <NavContainer>
+          <NavLogo to={"/"}>Maximiliano Correa</NavLogo>
+          <NavIcon />
+          <NavMenu>
+            <NavItem>
+              <NavLink to={"about"}>About</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to={"services"}>Services</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to={"contact"}>Contact</NavLink>
+            </NavItem>
+          </NavMenu>
+        </NavContainer>
+      </Nav>
+    </Router>
   );
 };
