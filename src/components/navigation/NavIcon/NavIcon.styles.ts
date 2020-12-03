@@ -6,7 +6,7 @@ export const useStyles = makeStyles(() => ({
     "@media screen and (max-width: 768px)": {
       display: "block",
       position: "absolute",
-      top: 0,
+      top: 7,
       right: 0,
       transform: "translate(-100% , 60%)",
       fontSize: "1.8rem",
