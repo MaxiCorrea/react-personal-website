@@ -9,5 +9,6 @@ export const useStyles = makeStyles(() => ({
     fontSize : "2rem",
     cursor : "pointer",
     outline : "none",
+    color : "#000",
   },
 }));

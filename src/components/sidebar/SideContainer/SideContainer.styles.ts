@@ -11,7 +11,7 @@ export const useStyles = makeStyles({
     width: "100%",
     height: "100%",
     color : "#fff",
-    background: "#0d0d0d",
+    background: "#fafafa",
     display: "grid",
     alignItems: "center",
     left: 0,

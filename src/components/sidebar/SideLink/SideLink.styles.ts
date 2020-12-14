@@ -9,8 +9,9 @@ export const useStyles = makeStyles(() => ({
     textDecoration: "none",
     listStyle: "none",
     transition: "0.2s ease-in-out",
-    color: "#fff",
     cursor: "pointer",
+    color: "#015190",
+    fontFamily : "Rubik",
     "&.hover": {
       color: "#01bf71",
       transition: "0.2s ease-in-out",

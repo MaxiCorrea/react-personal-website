@@ -2,7 +2,6 @@ import { makeStyles } from "@material-ui/core/styles";
 
 export const useStyles = makeStyles(() => ({
   root: {
-    background: "#000",
     height: "80px",
     display: "flex",
     justifyContent: "center",
@@ -11,6 +10,8 @@ export const useStyles = makeStyles(() => ({
     position: "sticky",
     top: 0,
     zIndex: 10,
+    backgroundColor: "#fff",
+    boxShadow: "0px 15px 19px rgba(47, 65, 81, 0.04)",
     "@media screen and (max-width: 960px)": {
       transition: "0.8s all ease"
     },
