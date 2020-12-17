@@ -10,7 +10,7 @@ interface NavLinkProps {
 export const NavLink: React.FC<NavLinkProps> = (props) => {
   const classes = useStyles();
   return (
-    <LinkScrool to={props.to} className={classes.root}>
+    <LinkScrool to={props.to} spy={true} smooth={true} className={classes.root}>
       {props.children}
     </LinkScrool>
   );

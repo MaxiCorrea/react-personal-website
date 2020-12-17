@@ -6,24 +6,24 @@ import { SideMenu } from "../SideMenu/SideMenu";
 import { SideLink } from "../SideLink/SideLink";
 
 export interface SideProps {
-  isOpen : boolean;
-  toggle : () => void;
+  isOpen: boolean;
+  toggle: () => void;
 }
 
 export const Side: React.FC<SideProps> = (props) => {
   return (
     <SideContainer {...props}>
-      <SideIcon {...props}/>
+      <SideIcon {...props} />
       <SideWrapper>
         <SideMenu>
-          <SideLink to="">
-              About
+          <SideLink to="/about" {...props}>
+            About
           </SideLink>
-          <SideLink to="">
-              Services
+          <SideLink to="/services" {...props}>
+            Services
           </SideLink>
-          <SideLink to="">
-              Contact
+          <SideLink to="/contact" {...props}>
+            Contact
           </SideLink>
         </SideMenu>
       </SideWrapper>

@@ -21,13 +21,13 @@ export const Nav: React.FC<NavProps> = (props) => {
         <NavIcon toggle={props.toggle} />
         <NavMenu>
           <NavItem>
-            <NavLink to={"about"}>About</NavLink>
+            <NavLink to={"/about"}>About</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink to={"services"}>Services</NavLink>
+            <NavLink to={"/services"}>Services</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink to={"contact"}>Contact</NavLink>
+            <NavLink to={"/contact"}>Contact</NavLink>
           </NavItem>
         </NavMenu>
       </NavContainer>
