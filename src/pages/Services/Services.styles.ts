@@ -2,7 +2,9 @@ import { makeStyles } from "@material-ui/core/styles";
 
 export const useStyles = makeStyles(() => ({
   root: {
-    background : "#e07b39" ,
+    display :"flex" ,
+    justifyContent : "center" ,
+    alignItems : "center",
     height : "100vh",
   },
 }));
