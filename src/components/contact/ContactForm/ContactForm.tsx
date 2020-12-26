@@ -1,7 +1,11 @@
 import * as React from "react";
 import { useStyles } from "./ContactForm.styles";
 
-export const ContactForm: React.FC = () => {
+interface ContactFormProps {
+  children?: React.ReactNode;
+}
+
+export const ContactForm: React.FC<ContactFormProps> = (props) => {
   const classes = useStyles();
-  return <div className={classes.root}></div>;
+  return <div className={classes.root}> {props.children}</div>;
 };

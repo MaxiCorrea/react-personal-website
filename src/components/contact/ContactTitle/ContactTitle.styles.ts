@@ -1,7 +1,10 @@
 import { makeStyles } from "@material-ui/core/styles";
 
 export const useStyles = makeStyles(() => ({
-  root: {},
+  root: {
+    display : "block",
+    width : "100%",
+  },
   title:{
     color: "#015190",
     fontWeight: 500,
@@ -14,5 +17,6 @@ export const useStyles = makeStyles(() => ({
     alignItems: "center",
     marginLeft: "24px",
     textDecoration: "none",
+    width : "100%",
   },
 }));
