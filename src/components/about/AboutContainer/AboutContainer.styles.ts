@@ -11,6 +11,6 @@ export const useStyles = makeStyles(() => ({
     margin : "auto",
     maxWidth: "64.375rem",
     position: "relative",
-    width: "100%",  
+    width: "90%",   
   },
 }));
