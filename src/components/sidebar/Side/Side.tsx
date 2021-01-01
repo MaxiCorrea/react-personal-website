@@ -22,6 +22,9 @@ export const Side: React.FC<SideProps> = (props) => {
           <SideLink to="/services" {...props}>
             Services
           </SideLink>
+          <SideLink to="/projects" {...props}>
+            Projects
+          </SideLink>
           <SideLink to="/contact" {...props}>
             Contact
           </SideLink>
