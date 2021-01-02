@@ -11,7 +11,7 @@ export const SideIcon: React.FC<SideIconProps> = (props) => {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <IconButton onClick={props.toggle}>
+      <IconButton aria-label={"mobile-close-button"} onClick={props.toggle}>
         <CloseIcon />
       </IconButton>
     </div>

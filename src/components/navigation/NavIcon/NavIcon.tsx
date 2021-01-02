@@ -12,7 +12,7 @@ export const NavIcon: React.FC<NavIconProps> = (props) => {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <IconButton onClick={props.toggle}>
+      <IconButton aria-label={"mobile-nav-button"} onClick={props.toggle}>
         <MenuIcon />
       </IconButton>
     </div>
