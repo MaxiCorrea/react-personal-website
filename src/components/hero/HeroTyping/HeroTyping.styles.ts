@@ -1,6 +1,9 @@
 import { makeStyles } from "@material-ui/core/styles";
 
 export const useStyles = makeStyles(() => ({
+  container : {
+    display : "flex",
+  },
   "@keyframes type": {
     "0%": {
       width: "0ch",
@@ -9,12 +12,20 @@ export const useStyles = makeStyles(() => ({
       width: "4ch",
     },
   },
-  root: {
+  dinamic: {
     fontFamily: "Rubik",
-    fontSize: "3.5rem",
     animation: "$type 1s steps(4)",
     whiteSpace: "nowrap",
     overflow: "hidden",
     borderRight: "4px solid black",
+    fontSize: "22px",
+    color: "red",
   },
+  static : {
+    color: "#015190",
+    fontFamily: "Rubik",
+    fontSize: "22px",
+    marginLeft : "0px",
+    marginRight: "10px",
+  }
 }));
