@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 export const useStyles = makeStyles(() => ({
   root: {
     position : "absolute",
-    top : "1.5rem" ,
+    top : "1rem" ,
     right : "1.5rem",
     background : "transparent",
     fontSize : "2rem",

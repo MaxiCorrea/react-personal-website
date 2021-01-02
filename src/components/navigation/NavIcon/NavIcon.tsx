@@ -1,6 +1,7 @@
 import * as React from "react";
 import MenuIcon from "@material-ui/icons/Menu";
 import { useStyles } from "./NavIcon.styles";
+import { IconButton } from "@material-ui/core";
 
 interface NavIconProps {
   children?: React.ReactNode;
@@ -11,7 +12,9 @@ export const NavIcon: React.FC<NavIconProps> = (props) => {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <MenuIcon onClick={props.toggle} />
+      <IconButton onClick={props.toggle}>
+        <MenuIcon />
+      </IconButton>
     </div>
   );
 };
