@@ -12,7 +12,17 @@ export const Hero: React.FC = () => {
       <HeroContainer>
         <HeroInfo>
           <HeroIm fullName={"Maximiliano Correa"} />
-          <HeroTyping prefix={"I'm a "} text="Maxi" />
+          <HeroTyping
+            prefix={"I'm a "}
+            texts={[
+              "Java Developer",
+              "React Developer",
+              "Web Developer",
+              "JavaScript Developer",
+              "TypeScript Developer",
+            ]}
+            wait={150}
+          />
         </HeroInfo>
       </HeroContainer>
     </div>
