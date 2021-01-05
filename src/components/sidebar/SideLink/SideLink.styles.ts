@@ -12,6 +12,8 @@ export const useStyles = makeStyles(() => ({
     cursor: "pointer",
     color: "#015190",
     fontFamily : "Rubik",
+    marginLeft: "-35px",
+    marginTop: "1.5rem",
     "&.hover": {
       color: "#01bf71",
       transition: "0.2s ease-in-out",
