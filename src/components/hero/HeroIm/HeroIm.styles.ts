@@ -7,20 +7,28 @@ export const useStyles = makeStyles(() => ({
     fontWeight: 700,
     fontSize: "20px",
     textAlign : "left",
+    display : "none",
     "@media screen and (min-width: 380px)": {
       fontSize: "20px",
+      display : "none"
     },
     "@media screen and (min-width: 480px)": {
       fontSize: "25px",
+      display : "none"
     },
     "@media screen and (min-width: 640px)": {
-      fontSize: "35px",
+      textAlign: "center",
+      display : "block"
     },
     "@media screen and (min-width: 767px)": {
       fontSize: "30px",
+      display : "block",
+      textAlign : "left",
     },
     "@media screen and (min-width: 991px)": {
       fontSize: "45px",
+      display : "block",
+      textAlign : "left",
     },
   },
 }));
