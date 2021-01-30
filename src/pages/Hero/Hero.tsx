@@ -15,11 +15,11 @@ export const Hero: React.FC = () => {
           <HeroTyping
             prefix={"I'm a "}
             texts={[
-              " Java Developer",
-              " React Developer",
-              " Web Developer",
-              " JavaScript Developer",
-              " TypeScript Developer",
+              "Java Developer",
+              "React Developer",
+              "Web Developer",
+              "JavaScript Developer",
+              "TypeScript Developer",
             ]}
             wait={150}
           />
