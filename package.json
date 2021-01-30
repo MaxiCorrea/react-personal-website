@@ -1,8 +1,8 @@
 {
-  "name": "personal-website",
+  "name": "react-personal-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://maxicorrea.github.io/personal-website/",
+  "homepage": "https://maxicorrea.github.io/react-personal-website/",
   "dependencies": {
     "@material-ui/core": "^4.11.1",
     "@material-ui/icons": "^4.9.1",
