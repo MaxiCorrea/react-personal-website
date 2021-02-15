@@ -4,7 +4,6 @@ import { Link as LinkRouter } from "react-router-dom";
 
 interface NavLogoProps {
   to: string;
-  children?: React.ReactNode;
 }
 
 export const NavLogo: React.FC<NavLogoProps> = (props) => {

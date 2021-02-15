@@ -8,7 +8,6 @@ import { NavMenu } from "../NavMenu/NavMenu";
 import { useStyles } from "./Nav.styles";
 
 interface NavProps {
-  children?: React.ReactNode;
   toggle: () => void;
 }
 

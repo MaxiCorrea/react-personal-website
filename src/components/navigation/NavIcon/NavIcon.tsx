@@ -4,7 +4,6 @@ import { useStyles } from "./NavIcon.styles";
 import { IconButton } from "@material-ui/core";
 
 interface NavIconProps {
-  children?: React.ReactNode;
   toggle: () => void;
 }
 

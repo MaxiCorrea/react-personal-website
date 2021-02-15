@@ -2,7 +2,6 @@ import * as React from "react";
 import { useStyles } from "./SideContainer.styles";
 
 interface SideContainerProps {
-  children?: React.ReactNode;
   isOpen: boolean;
   toggle: () => void;
 }

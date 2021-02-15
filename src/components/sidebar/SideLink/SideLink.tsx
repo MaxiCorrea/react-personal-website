@@ -3,7 +3,6 @@ import { Link as LinkScrool } from "react-scroll";
 import { useStyles } from "./SideLink.styles";
 
 interface SideLinkProps {
-  children?: React.ReactNode;
   to: string;
   toggle: () => void;
 }

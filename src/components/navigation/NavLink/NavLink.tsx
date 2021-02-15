@@ -3,7 +3,6 @@ import { useStyles } from "./NavLink.styles";
 import { Link as LinkScrool } from "react-scroll";
 
 interface NavLinkProps {
-  children?: React.ReactNode;
   to: string;
 }
 

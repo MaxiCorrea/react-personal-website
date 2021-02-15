@@ -1,6 +1,8 @@
 import * as React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import { Element } from "react-scroll";
+import { ScrollUpButton } from "../components/scrollup/ScrollUpButton/ScrollUpButton";
+import { ScrollUpContainer } from "../components/scrollup/ScrollUpContainer/ScrollUpContainer";
 import { About } from "../pages/About/About";
 import { Contact } from "../pages/Contact/Contact";
 import { Hero } from "../pages/Hero/Hero";
@@ -27,6 +29,9 @@ export const Application: React.FC = () => {
       <Element name="/contact">
         <Contact />
       </Element>
+      <ScrollUpContainer>
+        <ScrollUpButton/>
+      </ScrollUpContainer>
     </Router>
   );
 };
