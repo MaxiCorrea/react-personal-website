@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/react-personal-website/static/js/main.715cf344.chunk.js",
-    "main.js.map": "/react-personal-website/static/js/main.715cf344.chunk.js.map",
-    "runtime-main.js": "/react-personal-website/static/js/runtime-main.1d915a39.js",
-    "runtime-main.js.map": "/react-personal-website/static/js/runtime-main.1d915a39.js.map",
-    "static/js/2.ea252746.chunk.js": "/react-personal-website/static/js/2.ea252746.chunk.js",
-    "static/js/2.ea252746.chunk.js.map": "/react-personal-website/static/js/2.ea252746.chunk.js.map",
-    "static/js/3.ab8e1703.chunk.js": "/react-personal-website/static/js/3.ab8e1703.chunk.js",
-    "static/js/3.ab8e1703.chunk.js.map": "/react-personal-website/static/js/3.ab8e1703.chunk.js.map",
+    "main.js": "/react-personal-website/static/js/main.d0d3e970.chunk.js",
+    "main.js.map": "/react-personal-website/static/js/main.d0d3e970.chunk.js.map",
+    "runtime-main.js": "/react-personal-website/static/js/runtime-main.2cd84fc4.js",
+    "runtime-main.js.map": "/react-personal-website/static/js/runtime-main.2cd84fc4.js.map",
+    "static/js/2.52fa019e.chunk.js": "/react-personal-website/static/js/2.52fa019e.chunk.js",
+    "static/js/2.52fa019e.chunk.js.map": "/react-personal-website/static/js/2.52fa019e.chunk.js.map",
+    "static/js/3.9f28d86e.chunk.js": "/react-personal-website/static/js/3.9f28d86e.chunk.js",
+    "static/js/3.9f28d86e.chunk.js.map": "/react-personal-website/static/js/3.9f28d86e.chunk.js.map",
     "index.html": "/react-personal-website/index.html",
-    "static/js/2.ea252746.chunk.js.LICENSE.txt": "/react-personal-website/static/js/2.ea252746.chunk.js.LICENSE.txt"
+    "static/js/2.52fa019e.chunk.js.LICENSE.txt": "/react-personal-website/static/js/2.52fa019e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1d915a39.js",
-    "static/js/2.ea252746.chunk.js",
-    "static/js/main.715cf344.chunk.js"
+    "static/js/runtime-main.2cd84fc4.js",
+    "static/js/2.52fa019e.chunk.js",
+    "static/js/main.d0d3e970.chunk.js"
   ]
 }
