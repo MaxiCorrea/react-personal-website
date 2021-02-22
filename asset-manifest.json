@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/react-personal-website/static/js/main.d0d3e970.chunk.js",
-    "main.js.map": "/react-personal-website/static/js/main.d0d3e970.chunk.js.map",
+    "main.js": "/react-personal-website/static/js/main.452375ae.chunk.js",
+    "main.js.map": "/react-personal-website/static/js/main.452375ae.chunk.js.map",
     "runtime-main.js": "/react-personal-website/static/js/runtime-main.2cd84fc4.js",
     "runtime-main.js.map": "/react-personal-website/static/js/runtime-main.2cd84fc4.js.map",
     "static/js/2.52fa019e.chunk.js": "/react-personal-website/static/js/2.52fa019e.chunk.js",
@@ -14,6 +14,6 @@
   "entrypoints": [
     "static/js/runtime-main.2cd84fc4.js",
     "static/js/2.52fa019e.chunk.js",
-    "static/js/main.d0d3e970.chunk.js"
+    "static/js/main.452375ae.chunk.js"
   ]
 }
