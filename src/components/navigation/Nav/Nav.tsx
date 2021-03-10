@@ -16,7 +16,7 @@ export const Nav: React.FC<NavProps> = (props) => {
   return (
     <nav className={classes.root}>
       <NavContainer>
-        <NavLogo to={window.location.href}>Maximiliano.</NavLogo>
+        <NavLogo to={"/react-personal-website/"}>Maximiliano.</NavLogo>
         <NavIcon toggle={props.toggle} />
         <NavMenu>
           <NavItem>
