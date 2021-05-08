@@ -11,10 +11,10 @@ export const Contact: React.FC = () => {
       <ContactTitle text={"Contact"} />
       <ContactContainer>
         <ContactInfo
-          linkendin="https://linkedin.com.ar"
-          location="Eberth 11020 Buenos Aires"
-          mail="jmaxicorrea@gmail.com"
-          phone="+54 1234-4565"
+          linkendin=""
+          location=""
+          mail=""
+          phone=""
         />
       </ContactContainer>
     </div>
