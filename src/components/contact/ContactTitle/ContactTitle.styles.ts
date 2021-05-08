@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 export const useStyles = makeStyles(() => ({
   root: {
     display : "block",
-    width : "100%",
+    width : "90%",
   },
   title:{
     color: "#015190",
