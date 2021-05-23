@@ -1,5 +1,6 @@
 import * as React from "react";
 import { ContactContainer } from "../../components/contact/ContactContainer/ContactContainer";
+import { ContactForm } from "../../components/contact/ContactForm/ContactForm";
 import { ContactInfo } from "../../components/contact/ContactInfo/ContactInfo";
 import { ContactTitle } from "../../components/contact/ContactTitle/ContactTitle";
 import { useStyles } from "./Contact.styles";
@@ -11,11 +12,12 @@ export const Contact: React.FC = () => {
       <ContactTitle text={"Contact"} />
       <ContactContainer>
         <ContactInfo
-          linkendin=""
-          location=""
-          mail=""
-          phone=""
+          linkendin="xxxxxxxxx"
+          location="xxxxxxxxx"
+          mail="xxxxxxxxx"
+          phone="xxxxxxxxx"
         />
+        <ContactForm/>
       </ContactContainer>
     </div>
   );
