@@ -1,6 +1,6 @@
 import * as React from "react";
-import { Nav } from "../../components/navigation/Nav/Nav";
-import { Side } from "../../components/sidebar/Side/Side";
+import { Nav } from "components/navigation/Nav/Nav";
+import { Side } from "components/sidebar/Side/Side";
 import { useStyles } from "./Home.styles";
 
 export const Home: React.FC = () => {
