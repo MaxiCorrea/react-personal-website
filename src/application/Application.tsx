@@ -5,36 +5,26 @@ import { Footer } from "components/footer/Footer/Footer";
 import { Scrollbar } from "components/scrollbar/Scrollbar";
 import { ScrollUpButton } from "components/scrollup/ScrollUpButton/ScrollUpButton";
 import { ScrollUpContainer } from "components/scrollup/ScrollUpContainer/ScrollUpContainer";
-import { About } from "pages/About/About";
-import { Contact } from "pages/Contact/Contact";
-import { Hero } from "pages/Hero/Hero";
 import { Home } from "pages/Home/Home";
-import { Projects } from "pages/Projects/Projects";
-import { Services } from "pages/Services/Services";
+import { Sections } from "components/section/Sections/Sections";
+import { Section } from "components/section/Section/Section";
+import { Contact } from "sections/SectionContact/Contact/Contact";
 
 export const Application: React.FC = () => {
   return (
     <Scrollbar>
       <Router>
         <Home />
-        <Element name="/">
-          <Hero />
-        </Element>
-        <Element name="/about">
-          <About />
-        </Element>
-        <Element name="/services">
-          <Services />
-        </Element>
-        <Element name="/projects">
-          <Projects />
-        </Element>
-        <Element name="/contact">
-          <Contact />
-        </Element>
-        <Footer/>
+        <Sections>
+          <Section>
+            <Element name="/contact">
+              <Contact />
+            </Element>
+          </Section>
+        </Sections>
+        <Footer />
         <ScrollUpContainer>
-          <ScrollUpButton/>
+          <ScrollUpButton />
         </ScrollUpContainer>
       </Router>
     </Scrollbar>
